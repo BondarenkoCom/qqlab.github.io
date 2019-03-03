@@ -1,0 +1,12 @@
+body {
+
+    background-image: linear-gradient(to top, black 39%, transparent 90%) , url(../image/viiImage/backWyiHighRes.jpg);
+    background-size: contain;
+
+
+}
+
+p , ul,h3  {
+  color: aliceblue;  
+}
+

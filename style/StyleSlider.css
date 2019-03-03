@@ -1,0 +1,11 @@
+#image {
+   width:100%;
+   height: 400px;
+  
+}
+
+.slider_feature {
+    border-right: 2px solid red;
+    border-left:  2px solid red;
+    border-radius: 30px;
+}

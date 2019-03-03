@@ -1,0 +1,15 @@
+.container  p {
+    text-align: center;
+}
+
+body {
+
+    background-image: linear-gradient(to top, black 59%, transparent 100%) , url(../image/privat/Privat2.jpg);
+    background-size:contain;
+
+
+}
+
+p , ul,h3  {
+  color: aliceblue;  
+}

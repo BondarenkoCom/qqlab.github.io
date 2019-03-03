@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700');
+
+* {
+    margin: 5px auto;
+
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 34px;
+
+}
+
+
+
+a {
+    color: black;
+
+    font-family: 'Amatic SC', cursive;
+    font-size: 34px;
+    padding: 10px;
+
+
+    line-height: 1;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+
+
+    border-radius: 20px;
+    border: 2px solid lightslategrey;
+    height: 40px;
+
+    background-color: lightslategrey;
+}
+a:hover {
+    color: chartreuse;
+    border-color: chartreuse;
+    
+    /*прозрачная структура*/
+    background: linear-gradient(90deg,
+        rgba(16, 171, 32, 0.6) 22%,
+        rgba(16, 171, 32, 0.6) 25%,
+        rgba(16, 171, 32, 0.6) 95%,
+        rgba(16, 171, 32, 0.6) 100%);
+    box-shadow: 0 0 25px rgba(16, 171, 32, 9),
+        inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+a:after {
+
+    display: block;
+    content: "";
+    height: 20px;
+    width: 0%;
+
+    border-radius: 10px;
+    /*background-color: orangered;*/
+    /* original variant */
+    transition: width .3s ease-in-out;
+
+
+    /*
+    left:50%;
+    position:absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    transform:translateX(-50%);
+    */
+}
+
+a:hover:after,
+a:focus:after {
+
+    width: 100%;
+
+}
+
+
+.header-grid p {
+
+    height: 75%;
+    width: 70%;
+
+    margin-top: 7%;
+}
+
+.bg-back {
+    background: url(../image/slider-bg.png);
+    background-size: cover;
+}
+
+.aboutUs {
+    text-align: center;
+
+    font-family: 'Amatic SC', cursive;
+    font-size: 34px;
+    padding: 16px;
+}
+
+.aboutUs hr { 
+    border-radius: 20px;
+}
+/*
+.order {
+    width: 140px;
+    height: 20px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 24px;
+
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #c41515;
+    border-color: #c41515;
+    color: aliceblue;
+}
+*/
+
+.logoBack {
+    border-radius: 10px;
+    background-color: lightslategrey;
+}
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+
+    grid-template-columns: 1fr 1fr ;
+
+    font-family: 'Amatic SC', cursive;
+    font-size: 34px;
+
+}    
+
+
+/* страницы квестов  */
+
+
+.ListGreat  li {
+    list-style-type:none;
+    
+}
+
+.ListGreat {
+    
+    margin: 2%;
+}
+
+#BookFormWidget {
+    width: 100%;
+   
+}
+
+/*  slider */
+
+
+
+
+/*
+.next {
+    float: right;
+    position: relative;
+    top: 260px;
+    right: 30px;
+    border-radius: 50%;
+
+    width: 87px;
+    height: 67px;
+    cursor: pointer;
+    
+    background-position: center;
+    background-size: cover;
+}
+
+.prev {
+    border-radius: 50%;
+    background-color: #ffffff;
+    width: 87px;
+    height: 67px;
+    cursor: pointer;
+    float: left;
+    position: relative;
+    top: 260px;
+    left: 30px;
+
+    background: url(image/prev.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.feat {
+    margin-left: 147px;
+    margin-top: 47px;
+    font-family: OpenSans;
+    color: #635f57;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: justify;
+
+
+}
+
+*/

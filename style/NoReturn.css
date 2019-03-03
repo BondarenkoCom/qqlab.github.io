@@ -1,0 +1,16 @@
+body {
+    
+    background-image: linear-gradient(to top, black 39%, transparent 90%) , url(../image/noPoinReturnImage/Art5.jpg);
+    background-size: contain;
+   background-position:center;
+    
+}
+
+p , ul,h3  {
+  color: floralwhite;  
+   
+}
+
+.textHeader  {
+    background-color: black;
+}
